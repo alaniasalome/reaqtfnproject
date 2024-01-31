@@ -1,0 +1,210 @@
+body{
+/* background-image: url(img/image\ 8.png); */
+background-repeat: no-repeat;
+background-color: black;
+
+
+}
+.sako{
+    display: flex;
+}
+.heder{
+    margin-left: 3%;
+}
+.section1{
+    width: 100%;
+    margin-left: 40%;
+}
+.mineicon {
+    margin-top: 2%;
+  
+}
+.mineicon h2{
+    width: 50%;
+    color:#F8B319;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 30%;
+    margin-top: -35%;
+}
+
+.main{
+    font-family: 'Lato', sans-serif;
+    color: #F9F9F9AB;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2.1;
+}
+.main h4{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.Liberary{
+    color: #F9F9F9AB;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 2%;
+    line-height: 2.1;
+}
+.Liberary h4 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.General{
+    font-family: 'Lato', sans-serif;
+    color: #F9F9F9AB;
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 2%;
+    line-height: 2.1;
+}
+.General h4{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.section2{
+margin-right:-10% ;
+}
+.contents{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    align-items: flex-start;
+    font-size: 22px;
+    margin-left: 20%;
+    /* justify-content:space-around; */
+}
+.contents p {
+    margin-inline: 3%;
+}
+
+.search{
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 35%;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(0deg, #21242D, #21242D),
+    linear-gradient(0deg, rgba(249, 249, 249, 0.1), rgba(249, 249, 249, 0.1));
+}
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.container img{
+     margin-left: 10%;
+    border-radius: 20px;
+}
+  .The-Crown {
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.onclick{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: -30%;
+}
+
+
+.button-1 {
+    position: absolute;
+    text-decoration: none;
+    border: 4px;
+    border-radius: 10px ;
+    margin: 18% 8%;
+    top: 85%;
+    left: 33px;
+    width: 140px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #F9F9F933;
+    color: white;
+
+
+}
+.button-2 {
+    position: absolute;
+    text-decoration: none;
+    background-color: #F8B319;
+    color: white;
+    border: none;
+    border-radius: 10px ;
+    top: 183%;
+    right: -3%;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.topmovies{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 30%;
+    font-size: 30px;
+    font-weight: 800;
+}
+.img-movies{
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 30%;
+    height: 30%;
+    display: flex;
+   
+}
+.movies1{
+    width: 40%;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.movies2{
+    position: absolute;
+    width: 50%;
+    font-size: small;
+    top: 70%;
+    right:5px ;
+    color: #F9F9F9B2;
+    
+}
+
+.More-info{
+    position: absolute;
+    text-decoration: none;
+    background-color: #F8B319;
+    color: white;
+    border: none;
+    border-radius: 10px ;
+    top: 79%;
+    right: 6%;
+    font-weight: 900;
+    width: 110px;
+    height: 50px;
+    font-size: 16px;
+}
